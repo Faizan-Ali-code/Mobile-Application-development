@@ -1,0 +1,36 @@
+h1{
+    color: blue;
+}
+
+ul li{
+    color: red;
+}
+
+ul li:nth-child(3){
+    color: aqua;
+}
+
+ol li{
+    color: red;
+}
+
+ol li:last-of-type{
+    color: blue;
+}
+
+
+p{
+    background-color: rgb(83, 245, 83);
+    color: white;
+    font-weight: bold;
+}
+p span{
+    color: darkgreen;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    font-weight: bold;
+}
